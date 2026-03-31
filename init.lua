@@ -1,0 +1,11 @@
+print("Load config 0.1.0")
+
+require("options.common")
+require("options.lsp")
+require("plugins.colorscheme")
+require("plugins.mason")
+require("plugins.lualine")
+require("plugins.fzf")
+require("plugins.blink-cmp")
+require("keymaps.common")
+require("autocmd.copy")
