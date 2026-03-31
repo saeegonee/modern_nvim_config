@@ -3,7 +3,7 @@ vim.pack.add({
 })
 
 local actions = require('fzf-lua.actions')
-require('fzf-lua').setup({
+require("fzf-lua").setup({
     winopts = { backdrop = 85 },
     keymap = {
         builtin = {
