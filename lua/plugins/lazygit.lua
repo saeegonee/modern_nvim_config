@@ -1,10 +1,3 @@
 vim.pack.add({
-    {
-        src = "https://github.com/kdheepak/lazygit.nvim",
-        requires = {
-            "nvim-lua/plenary.nvim",
-        },
-    },
+    "https://github.com/kdheepak/lazygit.nvim"
 })
-
--- require("lazygit").setup({})
