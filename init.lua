@@ -1,4 +1,4 @@
-print("Load config 0.1.0")
+print("Load config 0.1.1")
 
 require("options.common")
 require("options.lsp")
@@ -9,4 +9,5 @@ require("plugins.fzf")
 require("plugins.blink-cmp")
 require("keymaps.common")
 require("keymaps.fzf")
+require("keymaps.mason")
 require("autocmd.copy")
