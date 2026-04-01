@@ -1,8 +1,8 @@
 vim.opt.guicursor = "i:block"
-vim.opt.colorcolumn = "120"
 vim.opt.listchars = "tab: ,multispace:|   ,eol:󰌑"
 vim.opt.winborder = "rounded"
 vim.opt.clipboard = "unnamedplus"
+-- vim.opt.colorcolumn = "120"
 
 -- side column
 vim.wo.signcolumn = "yes"
