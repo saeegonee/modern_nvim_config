@@ -1,4 +1,4 @@
 require('nvim-treesitter').install({
-    "lua",
-    "python"
+    -- "lua",
+    -- "python"
 })
