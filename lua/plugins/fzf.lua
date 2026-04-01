@@ -1,7 +1,3 @@
-vim.pack.add({
-    "https://github.com/ibhagwan/fzf-lua"
-})
-
 local actions = require('fzf-lua.actions')
 require("fzf-lua").setup({
     winopts = { backdrop = 85 },

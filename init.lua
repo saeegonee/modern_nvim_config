@@ -5,12 +5,12 @@ require("options.common")
 require("options.lsp")
 
 -- plugins
+require("plugins.load")
 require("plugins.colorscheme")
 require("plugins.mason")
 require("plugins.lualine")
 require("plugins.fzf")
 require("plugins.blink-cmp")
-require("plugins.lazygit")
 require("plugins.neotest")
 require("plugins.treesitter")
 
