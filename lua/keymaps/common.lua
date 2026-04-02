@@ -1,9 +1,11 @@
 vim.keymap.set("n", "<leader>w", "<Cmd>Explore<CR>")
 
 local opts = { noremap = true, silent = true }
-vim.keymap.set("n", "gd",           "<Cmd>lua vim.lsp.buf.definition()<CR>", opts)
-vim.keymap.set("n", "gr",           "", opts)
-vim.keymap.set("n", "<Leader>fo",   ":lua vim.lsp.buf.format()<CR>", opts)
+
+vim.keymap.set("n", "gd",           vim.lsp.buf.declaration, opts)
+vim.keymap.set("n", "gr",           vim.lsp.buf.references, opts)
+vim.keymap.set("n", "S-k",          vim.lsp.buf.hover, opts)
+vim.keymap.set("n", "<Leader>fo",   vim.lsp.buf.format, opts)
 
 -- move line
 vim.keymap.set("n", "<M-Down>",     "<Cmd>m+1<CR>")

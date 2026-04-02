@@ -1,6 +1,8 @@
 local actions = require('fzf-lua.actions')
 require("fzf-lua").setup({
-    winopts = { backdrop = 85 },
+    winopts = {
+        backdrop = 85,
+    },
     keymap = {
         builtin = {
             ["<C-f>"] = "preview-page-down",
