@@ -19,6 +19,7 @@ require("keymaps.common")
 require("keymaps.fzf")
 require("keymaps.mason")
 require("keymaps.lazygit")
+require("keymaps.neotest")
 
 -- autocmd
 require("autocmd.copy")
