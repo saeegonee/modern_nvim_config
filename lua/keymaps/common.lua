@@ -2,6 +2,7 @@ local opts = { noremap = true, silent = true }
 
 -- common
 vim.keymap.set("n", "<leader>w",    "<Cmd>Explore<CR>")
+vim.keymap.set("n", "<leader>ns",   "<Cmd>nohlsearch<CR>")
 
 -- lsp
 vim.keymap.set("n", "gd",           vim.lsp.buf.declaration, opts)

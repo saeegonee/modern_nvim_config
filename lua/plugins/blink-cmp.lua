@@ -8,7 +8,7 @@ require("blink.cmp").setup({
 		["<Tab>"] = {},
 		["<S-Tab>"] = {},
 		["<C-y>"] = { "show", "show_documentation", "hide_documentation" },
-		["<C-n>"] = { "select_and_accept" },
+		["<C-a>"] = { "select_and_accept" },
 		["<C-k>"] = { "select_prev", "fallback" },
 		["<C-j>"] = { "select_next", "fallback" },
 		["<C-b>"] = { "scroll_documentation_down", "fallback" },
