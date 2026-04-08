@@ -2,6 +2,11 @@ local actions = require('fzf-lua.actions')
 require("fzf-lua").setup({
     winopts = {
         backdrop = 85,
+        preview = {
+            layout = "vertical",
+            -- flip_columns = 50,
+            vertical = "up:50%"
+        }
     },
     files = {
         file_ignore_patterns = {
