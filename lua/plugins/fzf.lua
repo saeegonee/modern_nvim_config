@@ -11,6 +11,11 @@ require("fzf-lua").setup({
     files = {
         file_ignore_patterns = {
             "icon/*",
+            "Content/*",
+            "Fonts/*",
+            "Materials/*",
+            "Scenes/*",
+            "Themes/*"
         }
     },
     keymap = {
