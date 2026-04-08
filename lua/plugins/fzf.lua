@@ -3,6 +3,11 @@ require("fzf-lua").setup({
     winopts = {
         backdrop = 85,
     },
+    files = {
+        file_ignore_patterns = {
+            "icon/*",
+        }
+    },
     keymap = {
         builtin = {
             ["<C-f>"] = "preview-page-down",
