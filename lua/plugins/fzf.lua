@@ -2,9 +2,9 @@ local actions = require('fzf-lua.actions')
 require("fzf-lua").setup({
     winopts = {
         backdrop = 85,
+        width = 0.6,
         preview = {
             layout = "vertical",
-            -- flip_columns = 50,
             vertical = "up:50%"
         }
     },
