@@ -8,6 +8,7 @@ vim.pack.add({
     "https://github.com/nvim-treesitter/nvim-treesitter",
     "https://github.com/nvim-neotest/neotest-python",
     "https://github.com/nvim-neotest/neotest-plenary",
+    "https://github.com/MunifTanjim/nui.nvim",
 
     -- target plugs
     "https://github.com/mason-org/mason.nvim",
@@ -18,4 +19,5 @@ vim.pack.add({
     "https://github.com/akinsho/bufferline.nvim",
     "https://github.com/folke/which-key.nvim",
     "https://github.com/nvim-neotest/neotest",
+    "https://github.com/folke/noice.nvim",
 })
