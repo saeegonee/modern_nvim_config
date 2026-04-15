@@ -16,7 +16,8 @@ require("plugins.treesitter")
 require("plugins.bufferline")
 require("plugins.notify")
 require("plugins.noice")
-require("plugins.mini")
+require("plugins.mini_pairs")
+require("plugins.mini_surround")
 
 -- keymaps
 require("keymaps.common")
