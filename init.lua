@@ -14,6 +14,7 @@ require("plugins.blink-cmp")
 require("plugins.neotest")
 require("plugins.treesitter")
 require("plugins.bufferline")
+require("plugins.notify")
 require("plugins.noice")
 
 -- keymaps
