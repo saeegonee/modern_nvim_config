@@ -21,4 +21,6 @@ vim.pack.add({
     "https://github.com/folke/which-key.nvim",
     "https://github.com/nvim-neotest/neotest",
     "https://github.com/folke/noice.nvim",
+    "https://github.com/nvim-mini/mini.surround",
+    "https://github.com/nvim-mini/mini.pairs",
 })
