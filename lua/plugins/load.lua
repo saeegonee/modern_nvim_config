@@ -1,13 +1,9 @@
 vim.pack.add({
 
     -- deps
-    "https://github.com/oskarnurm/koda.nvim",
-    "https://github.com/nvim-neotest/nvim-nio",
-    "https://github.com/nvim-lua/plenary.nvim",
-    "https://github.com/antoinemadec/FixCursorHold.nvim",
     "https://github.com/nvim-treesitter/nvim-treesitter",
-    "https://github.com/nvim-neotest/neotest-python",
-    "https://github.com/nvim-neotest/neotest-plenary",
+    "https://github.com/nvim-lua/plenary.nvim",
+    "https://github.com/oskarnurm/koda.nvim",
     "https://github.com/MunifTanjim/nui.nvim",
     "https://github.com/rcarriga/nvim-notify",
 
@@ -19,7 +15,6 @@ vim.pack.add({
     "https://github.com/nvim-lualine/lualine.nvim",
     "https://github.com/akinsho/bufferline.nvim",
     "https://github.com/folke/which-key.nvim",
-    "https://github.com/nvim-neotest/neotest",
     "https://github.com/folke/noice.nvim",
     "https://github.com/nvim-mini/mini.surround",
     "https://github.com/nvim-mini/mini.pairs",
