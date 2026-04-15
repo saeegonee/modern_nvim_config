@@ -23,7 +23,6 @@ require("keymaps.common")
 require("keymaps.fzf")
 require("keymaps.mason")
 require("keymaps.lazygit")
-require("keymaps.neotest")
 require("keymaps.bufferline")
 
 -- autocmd
