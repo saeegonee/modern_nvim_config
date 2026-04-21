@@ -14,7 +14,6 @@ vim.pack.add({
     "https://github.com/saghen/blink.cmp",
     "https://github.com/nvim-lualine/lualine.nvim",
     "https://github.com/akinsho/bufferline.nvim",
-    "https://github.com/folke/which-key.nvim",
     "https://github.com/folke/noice.nvim",
     "https://github.com/nvim-mini/mini.surround",
     "https://github.com/nvim-mini/mini.pairs",
