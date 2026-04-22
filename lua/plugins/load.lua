@@ -17,4 +17,5 @@ vim.pack.add({
     "https://github.com/folke/noice.nvim",
     "https://github.com/nvim-mini/mini.surround",
     "https://github.com/nvim-mini/mini.pairs",
+    "https://github.com/nvim-mini/mini.animate",
 })

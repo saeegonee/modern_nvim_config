@@ -17,6 +17,7 @@ require("plugins.notify")
 require("plugins.noice")
 require("plugins.mini_pairs")
 require("plugins.mini_surround")
+require("plugins.mini_animate")
 
 -- keymaps
 require("keymaps.common")
