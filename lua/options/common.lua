@@ -1,5 +1,6 @@
 vim.opt.guicursor = "i:block"
-vim.opt.listchars = "tab: ,multispace:|   ,eol:󰌑"
+vim.opt.list      = true
+vim.opt.listchars = "tab:› ,multispace:   ,eol:󰌑"
 vim.opt.winborder = "rounded"
 vim.opt.clipboard = "unnamedplus"
 -- vim.opt.colorcolumn = "120"
