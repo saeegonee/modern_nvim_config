@@ -28,3 +28,4 @@ require("keymaps.bufferline")
 
 -- autocmd
 require("autocmd.copy")
+require("autocmd.highlight")
