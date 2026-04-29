@@ -13,6 +13,14 @@ vim.api.nvim_create_autocmd(
     }
 )
 
+-- vim.api.nvim_set_hl(0, "NonText", {
+--     fg = "#50585d",
+-- })
+
+-- vim.api.nvim_set_hl(0, "EndOfBuffer", {
+--     fg = "red",
+-- })
+
 -- vim.api.nvim_set_hl(0, "Comment", {
 --     fg = "red",
 -- })
