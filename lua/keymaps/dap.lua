@@ -1,0 +1,5 @@
+vim.keymap.set("n", "<F9>",         "<Cmd>lua require('dapui').toggle()<CR>")
+vim.keymap.set("n", "<F10>",        "<Cmd>DapContinue<CR>")
+vim.keymap.set("n", "<Leader>db",   "<Cmd>DapToggleBreakpoint<CR>")
+vim.keymap.set("n", "<Leader>do",   "<Cmd>DapStepOver<CR>")
+vim.keymap.set("n", "<Leader>di",   "<Cmd>DapStepInto<CR>")

@@ -6,6 +6,8 @@ vim.pack.add({
     "https://github.com/oskarnurm/koda.nvim",
     "https://github.com/MunifTanjim/nui.nvim",
     "https://github.com/rcarriga/nvim-notify",
+    "https://github.com/nvim-neotest/nvim-nio",
+    "https://github.com/rcarriga/nvim-dap-ui",
 
     -- target plugs
     "https://github.com/mason-org/mason.nvim",
@@ -18,4 +20,5 @@ vim.pack.add({
     "https://github.com/nvim-mini/mini.surround",
     "https://github.com/nvim-mini/mini.pairs",
     "https://github.com/nvim-mini/mini.animate",
+    "https://github.com/mfussenegger/nvim-dap",
 })

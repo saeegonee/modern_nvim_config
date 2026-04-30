@@ -18,6 +18,8 @@ require("plugins.noice")
 require("plugins.mini_pairs")
 require("plugins.mini_surround")
 require("plugins.mini_animate")
+require("plugins.dap")
+require("plugins.dapui")
 
 -- keymaps
 require("keymaps.common")
@@ -25,6 +27,7 @@ require("keymaps.fzf")
 require("keymaps.mason")
 require("keymaps.lazygit")
 require("keymaps.bufferline")
+require("keymaps.dap")
 
 -- autocmd
 require("autocmd.copy")
