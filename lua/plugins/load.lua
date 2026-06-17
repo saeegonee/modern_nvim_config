@@ -21,4 +21,5 @@ vim.pack.add({
     "https://github.com/nvim-mini/mini.pairs",
     "https://github.com/nvim-mini/mini.animate",
     "https://github.com/mfussenegger/nvim-dap",
+    "https://github.com/mfussenegger/nvim-lint",
 })

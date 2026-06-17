@@ -22,8 +22,7 @@ local popup = Popup({
 popup:mount()
 
 -- Window content
-vim.api.nvim_buf_set_lines(popup.bufnr, 0, 1, false,
-    { "Привет! Это окно создано через nui.nvim", "", "Нажми 'q', чтобы закрыть." })
+vim.api.nvim_buf_set_lines(popup.bufnr, 0, 1, false, { "Привет! Это окно создано через nui.nvim", "", "Нажми 'q', чтобы закрыть." })
 
 -- Set keymap
 popup:map("n", "q", function()

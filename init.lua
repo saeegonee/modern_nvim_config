@@ -20,6 +20,7 @@ require("plugins.mini_surround")
 require("plugins.mini_animate")
 require("plugins.dap")
 require("plugins.dapui")
+require("plugins.py_lint")
 
 -- keymaps
 require("keymaps.common")
