@@ -1,13 +1,13 @@
 local Popup = require("nui.popup")
 
-local function reference_handle(l_item)
+local function messages_handle()
 
-    -- Collect refs
-    local items = {}
-    for lable, table in pairs(l_item) do
-        require("table").insert(items, { text = "path:line", location=table })
-        print(lable, table)
-    end
+    local messages = vim.api.nvim_exec2("messages", { output = true })
+    -- for _, t in pairs(messages) do
+    --     print(t)
+    -- end
+    local buf = vim.api.nvim_create_buf(false, true)
+    vim.api.nvim_buf_set_lines(buf, 0, -1, false, vim.split(messages, "\n", { trimempty = true }))
 
     -- Create  nui float window
     local popup = Popup({
@@ -17,7 +17,7 @@ local function reference_handle(l_item)
         border = {
             style = "rounded",
             text = {
-                top = " References ",
+                top = " Messages ",
                 top_align = "center",
             },
             padding = {
@@ -44,4 +44,4 @@ local function reference_handle(l_item)
     popup:mount()
 end
 
--- vim.keymap.set("n", "gr", function() vim.lsp.buf.references(nil, { on_list = reference_handle }) end, { desc = "LSP References in Nui" })
+-- vim.keymap.set("n", "<Leader>mm", function() messages_handle() end, { desc = "LSP References in Nui" })
