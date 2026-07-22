@@ -11,11 +11,23 @@ require("fzf-lua").setup({
     files = {
         file_ignore_patterns = {
             "icon/*",
+            "icons/*",
+            "build/*",
             "Content/*",
             "Fonts/*",
             "Materials/*",
             "Scenes/*",
-            "Themes/*"
+            "Themes/*",
+            "__pycache__/*",
+            ".venv/*",
+            "lib/*",
+            "bin/*",
+            -- "__init__.py",
+            ".pylintrc",
+            ".python*",
+            "pyproject.toml",
+            "blender_manifest.toml",
+            "uv.lock",
         }
     },
     -- keymap = {
