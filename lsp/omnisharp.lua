@@ -24,5 +24,5 @@ return {
             IncludePrereleases = true
         }
     },
-    root_dir = "D:/Projects/Proto32/proj/Proto32.sln",
+    root_dir = "D:/Projects/Proto33/proj/Proto33.sln",
 }
