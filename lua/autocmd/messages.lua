@@ -1,13 +1,17 @@
 local Popup = require("nui.popup")
 
+
 local function messages_handle()
 
     local messages = vim.api.nvim_exec2("messages", { output = true })
-    -- for _, t in pairs(messages) do
-    --     print(t)
-    -- end
+
+    local out = {}
+    for _, msg in pairs(messages) do
+        table.insert(out, msg)
+    end
+
     local buf = vim.api.nvim_create_buf(false, true)
-    vim.api.nvim_buf_set_lines(buf, 0, -1, false, vim.split(messages, "\n", { trimempty = true }))
+    vim.api.nvim_buf_set_lines(buf, 0, -1, false, out)
 
     -- Create  nui float window
     local popup = Popup({
@@ -44,4 +48,5 @@ local function messages_handle()
     popup:mount()
 end
 
--- vim.keymap.set("n", "<Leader>mm", function() messages_handle() end, { desc = "LSP References in Nui" })
+
+vim.keymap.set("n", "<Leader>mm", function() messages_handle() end, { desc = "Messages output" })

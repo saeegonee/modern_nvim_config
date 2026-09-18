@@ -29,32 +29,40 @@ require("dapui").setup({
         expanded = ""
     },
     layouts = { {
-        elements = { {
-            id = "scopes",
-            size = 0.25
-        }, {
-            id = "breakpoints",
-            size = 0.25
-        }, {
-            id = "stacks",
-            size = 0.25
-        }, {
-            id = "watches",
-            size = 0.25
-        } },
+        elements = {
+            {
+                id = "scopes",
+                size = 0.5
+            },
+            {
+                id = "breakpoints",
+                size = 0.15
+            },
+            {
+                id = "stacks",
+                size = 0.15
+            },
+            -- {
+            --     id = "watches",
+            --     size = 0.1
+            -- },
+            {
+                id = "repl",
+                size = 0.2
+            }
+        },
         position = "left",
-        size = 40
-    }, {
-        elements = { {
-            id = "repl",
-            size = 0.5
-        }, {
-            id = "console",
-            size = 0.5
-        } },
-        position = "bottom",
-        size = 10
-    } },
+        size = 120
+    },
+    -- {
+    --     elements = {  {
+    --         id = "console",
+    --         size = 0.7
+    --     } },
+    --     position = "bottom",
+    --     size = 4
+    -- } 
+    },
     mappings = {
         edit = "e",
         expand = { "<CR>", "<2-LeftMouse>" },
