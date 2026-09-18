@@ -1,7 +1,12 @@
 print("Load config 0.1.2")
 
+-- options
+require("options.common")
+require("options.lsp")
+require("options.load_plugins")
+require("options.colorscheme")
+
 -- plugins
-require("plugins.load")
 require("plugins.mason")
 require("plugins.lualine")
 require("plugins.fzf")
@@ -17,11 +22,6 @@ require("plugins.dap")
 require("plugins.dapui")
 require("plugins.py_lint")
 
--- options
-require("options.common")
-require("options.lsp")
-require("options.colorscheme")
-
 -- keymaps
 require("keymaps.common")
 require("keymaps.fzf")
@@ -32,5 +32,4 @@ require("keymaps.dap")
 
 -- autocmd
 require("autocmd.copy")
-require("autocmd.highlight")
 -- require("autocmd.messages")
