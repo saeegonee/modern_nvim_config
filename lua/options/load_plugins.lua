@@ -8,6 +8,7 @@ vim.pack.add({
     "https://github.com/rcarriga/nvim-notify",
     "https://github.com/nvim-neotest/nvim-nio",
     "https://github.com/rcarriga/nvim-dap-ui",
+    "https://github.com/saghen/blink.lib",
 
     -- target plugs
     "https://github.com/mason-org/mason.nvim",
